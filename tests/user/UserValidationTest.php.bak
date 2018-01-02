@@ -5,7 +5,7 @@ namespace Test;
 use Models\User as UserModel;
 use Lib\User\Validate;
 
-class UserValidationTest extends \PHPUnit_Framework_TestCase 
+class UserValidationTest extends \PHPUnit\Framework\TestCase  
 {
 
 	public function testEmailValidationFail()

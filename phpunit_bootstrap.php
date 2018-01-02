@@ -1,23 +1,48 @@
 <?php
+/* timezone */
+date_default_timezone_set('UTC');
 
-define("SITE_ROOT", realpath('./'));
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
 define("IS_LIVE", false);
 
-define("PUBLIC_ROOT", SITE_ROOT . '/public_html/');
-define("APP_DIR", SITE_ROOT . '/App');
-define("TEMPLATE_DIR", APP_DIR . '/Views');
+define('ROOT_DIR', __DIR__);
+define("PUBLIC_ROOT", ROOT_DIR . '/public_html');
+set_include_path(get_include_path() . PATH_SEPARATOR . realpath(ROOT_DIR . "/App/"));
 
-set_include_path(get_include_path() . PATH_SEPARATOR . realpath(SITE_ROOT . "/App/"));
+// Autoloader
+require (__DIR__ . '/vendor/autoload.php');
 
-require __DIR__ . '/vendor/autoload.php';
-
-
-$configFile = 'Configs/dev.php';
+if(IS_LIVE){
+    $configFile = 'App/Configs/live.php';
+} else {
+    $configFile = 'App/Configs/dev.php';
+}
 require $configFile;
 
-$db = new Lib\Database\Mysql\DB();
-$db->setvar('dbHost', $settings->dbHost);
-$db->setvar('dbName', $settings->dbName);
-$db->setvar('dbUser', $settings->dbUser);
-$db->setvar('dbPass', $settings->dbPass);
+\Lib\Debug\Debugger::setPath(__DIR__ . '/debuglogs/');
+
+// error reporting
+error_reporting(E_ALL & ~E_NOTICE);
+
+if(!IS_LIVE){
+    ini_set('display_errors', 1);
+}
+
+
+// convert to static class
+if(class_exists('Memcached')){
+    $memc = new Lib\Database\Memc($settings->memc_server, $settings->memc_port);
+} else {
+    die('Memcached class does not exist');
+}
+
+// Configure DB
+$db = new Lib\Database\Mysql\DB(
+    $settings->db->host, 
+    $settings->db->port, 
+    $settings->db->name, 
+    $settings->db->user, 
+    $settings->db->pass
+);
+

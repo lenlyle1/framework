@@ -1738,3 +1738,34 @@ Array
 
 
 
+
+[Tue Jan 2 10:34:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:79
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 10:34:48] VALUES - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:80
+Array
+
+
+
+
+[Tue Jan 2 10:34:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:79
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 10:34:48] VALUES - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:80
+Array
+
+
+
+
+[Tue Jan 2 10:34:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:79
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Tue Jan 2 10:34:48] VALUES - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:80
+Array
+
+
+

@@ -2,21 +2,17 @@
 
 namespace Test;
 
-use Models\User as UserModel;
-use Lib\User\Validate;
-use Lib\User\UserOperations as User;
+use \Lib\User\User;
 
-class UserCreationTest extends \PHPUnit_Framework_TestCase 
+class UserCreationTest extends \PHPUnit\Framework\TestCase 
 {
 
-	use \Lib\Seeding\Traits\FlushTable;
+	// public function testDbConnection()
+	// {
+	// 	$result = \Lib\Search\RunSearch::go();
 
-	public function testDbConnection()
-	{
-		$result = \Lib\Search\RunSearch::go();
-
-		var_dump($result);
-	}
+	// 	var_dump($result);
+	// }
 
 	public function testUserCreation()
 	{
@@ -27,7 +23,7 @@ class UserCreationTest extends \PHPUnit_Framework_TestCase
 			'gender'    => 'm'
 		];
 
-		$id = User::create($params);
+		$id = User::save($params);
 
 		var_dump($id);
 	}

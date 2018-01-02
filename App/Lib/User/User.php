@@ -3,15 +3,9 @@
 namespace Lib\User;
 
 use \Lib\Debug\Debugger;
-use \Models\User as UserModel;
-use \Models\UserProfile as UserProfileModel;
-use \Models\UserPatientDetails as UserPatientDetailsModel;
-use \Models\UserRole as UserRoleModel;
 use \Lib\Database\DbGetter;// use \Models\UserContactInformation;
 use \Lib\Validation\UserValidation;
 use \Lib\Messaging\MessageRunner;
-use \Lib\Session\Session;
-
 
 class User
 {

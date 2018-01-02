@@ -4624,3 +4624,63 @@ Array
 
 
 
+
+[Tue Jan 2 10:34:48] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 10:34:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 10:34:48] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 10:34:48] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 10:34:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 10:34:48] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+

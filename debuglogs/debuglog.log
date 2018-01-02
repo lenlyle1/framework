@@ -760,3 +760,51 @@ in guest middleware : /user/signup
 [Tue Jan 2 8:05:11] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
 in guest middleware : /user/signup
 
+
+[Tue Jan 2 10:34:48] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 10:34:48] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 19:02:50] User params - File:/var/www/framework/App/Lib/User/User.php - Line:61
+Array
+
+      [username] => lenlyle
+      [password] => T3mpP4ss
+      [email] => lenlyle@gmail.com
+      [gender] => m
+
+
+
+[Tue Jan 2 19:02:50] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:35
+Array
+
+      [0] => user_role
+      [1] => time_zone
+
+
+
+[Tue Jan 2 19:02:50] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+user_role empty
+
+
+[Tue Jan 2 19:02:50] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+time_zone empty
+
+
+[Tue Jan 2 19:02:50] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:73
+
+
+
+[Tue Jan 2 19:02:50] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:74
+Array
+
+      [username] => lenlyle
+      [password] => T3mpP4ss
+      [email] => lenlyle@gmail.com
+      [gender] => m
+
+
