@@ -1,0 +1,762 @@
+
+[Fri Dec 29 5:51:46] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 5:51:46] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 5:52:04] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 5:52:04] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 5:59:29] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 5:59:29] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 5:59:56] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 5:59:56] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:00:38] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:00:38] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:02:03] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:02:03] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:02:53] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:02:53] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:03:08] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:03:08] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:03:21] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:03:21] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:03:21] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:03:35] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:03:35] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:03:35] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:04:37] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:04:37] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:04:37] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:08:54] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:08:54] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:08:54] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:09:01] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:09:01] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 6:09:01] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:09:47] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:09:47] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:11:30] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:11:30] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:12:25] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:12:33] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:12:33] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 6:13:15] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:13:15] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 6:13:18] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:13:19] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 6:13:19] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:08:45] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:08:45] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:09:31] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:09:31] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:17:52] User params - File:/var/www/framework/App/Lib/User/User.php - Line:61
+Array
+
+      [mode] => add
+      [first_name] => 
+      [last_name] => 
+      [email_address] => 
+      [username] => 
+      [password] => 
+      [confirm_password] => 
+      [gender] => 
+      [birth_year] => 
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:35
+Array
+
+      [0] => user_role
+      [1] => time_zone
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+user_role empty
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+time_zone empty
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:73
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:74
+Array
+
+      [mode] => add
+      [first_name] => 
+      [last_name] => 
+      [email_address] => 
+      [username] => 
+      [password] => 
+      [confirm_password] => 
+      [gender] => 
+      [birth_year] => 
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:15
+Array
+
+      [user] => Array
+
+            [0] => user_role
+            [1] => time_zone
+
+      [profile] => Array
+
+            [0] => first_name
+            [1] => last_name
+            [2] => practice_id
+
+      [patient] => Array
+
+            [0] => date_of_birth
+            [1] => gender_id
+            [2] => mrn
+
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:16
+Array
+
+      [user_role] => Array
+
+            [0] => User role is required
+
+      [time_zone] => Array
+
+            [0] => Time zone is required
+
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+first_name empty
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+last_name empty
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+practice_id empty
+
+
+[Fri Dec 29 10:17:52] User validation result - File:/var/www/framework/App/Lib/User/User.php - Line:67
+Array
+
+      [success] => 
+      [errors] => Array
+
+            [user_role] => Array
+
+                  [0] => User role is required
+
+            [time_zone] => Array
+
+                  [0] => Time zone is required
+
+            [first_name] => Array
+
+                  [0] => First name is required
+
+            [last_name] => Array
+
+                  [0] => Last name is required
+
+            [practice_id] => Array
+
+                  [0] => Practice id is required
+
+
+
+
+
+[Fri Dec 29 10:17:52] Redirecting to: - File:/var/www/framework/App/Lib/Utils/Redirect.php - Line:11
+/user/signup
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Routing/Router.php (Line: 144)
+    Function: go()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Lib/Session/Session.php - Line:25
+Wiping old
+
+
+[Fri Dec 29 10:17:52] AFTER WIPE - File:/var/www/framework/App/Lib/Session/Session.php - Line:27
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:17:52] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:43:05] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:43:05] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:43:10] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:43:10] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /
+
+
+[Fri Dec 29 10:43:26] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:43:26] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 10:50:38] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 10:50:38] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 11:12:27] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 11:12:27] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 11:15:11] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 11:15:11] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:00:53] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:00:53] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:00:59] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:00:59] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:01:00] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:01:03] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:01:03] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:01:06] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:01:08] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:01:08] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:01:25] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:01:25] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:02:15] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:02:15] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:03:03] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:03:03] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:03:09] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:03:09] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:03:46] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:03:46] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:05:51] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:05:51] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Fri Dec 29 12:06:53] User params - File:/var/www/framework/App/Lib/User/User.php - Line:61
+Array
+
+      [mode] => add
+      [first_name] => 
+      [last_name] => 
+      [email_address] => 
+      [username] => 
+      [password] => 
+      [confirm_password] => 
+      [gender] => 
+      [birth_year] => 
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:35
+Array
+
+      [0] => user_role
+      [1] => time_zone
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+user_role empty
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+time_zone empty
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:73
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:74
+Array
+
+      [mode] => add
+      [first_name] => 
+      [last_name] => 
+      [email_address] => 
+      [username] => 
+      [password] => 
+      [confirm_password] => 
+      [gender] => 
+      [birth_year] => 
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:15
+Array
+
+      [user] => Array
+
+            [0] => user_role
+            [1] => time_zone
+
+      [profile] => Array
+
+            [0] => first_name
+            [1] => last_name
+            [2] => practice_id
+
+      [patient] => Array
+
+            [0] => date_of_birth
+            [1] => gender_id
+            [2] => mrn
+
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/UserValidation.php - Line:16
+Array
+
+      [user_role] => Array
+
+            [0] => User role is required
+
+      [time_zone] => Array
+
+            [0] => Time zone is required
+
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+first_name empty
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+last_name empty
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Validation/Validation.php - Line:52
+practice_id empty
+
+
+[Fri Dec 29 12:06:53] User validation result - File:/var/www/framework/App/Lib/User/User.php - Line:67
+Array
+
+      [success] => 
+      [errors] => Array
+
+            [user_role] => Array
+
+                  [0] => User role is required
+
+            [time_zone] => Array
+
+                  [0] => Time zone is required
+
+            [first_name] => Array
+
+                  [0] => First name is required
+
+            [last_name] => Array
+
+                  [0] => Last name is required
+
+            [practice_id] => Array
+
+                  [0] => Practice id is required
+
+
+
+
+
+[Fri Dec 29 12:06:53] Redirecting to: - File:/var/www/framework/App/Lib/Utils/Redirect.php - Line:11
+/user/signup
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Routing/Router.php (Line: 144)
+    Function: go()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Lib/Session/Session.php - Line:25
+Wiping old
+
+
+[Fri Dec 29 12:06:53] AFTER WIPE - File:/var/www/framework/App/Lib/Session/Session.php - Line:27
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Fri Dec 29 12:06:53] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Sat Dec 30 8:02:47] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Sat Dec 30 8:02:47] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Sat Dec 30 8:04:30] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Sat Dec 30 8:04:30] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Sat Dec 30 8:04:33] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Sat Dec 30 8:04:33] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Sat Dec 30 8:04:35] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Sat Dec 30 8:04:39] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Sat Dec 30 8:04:39] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:03:03] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:03:03] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:03:05] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:03:09] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:03:09] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:03:52] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:03:52] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:04:14] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:04:14] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:04:14] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:04:14] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:04:15] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:04:15] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:04:15] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:04:15] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+
+
+[Tue Jan 2 8:05:11] Debug - File:/var/www/framework/App/Bootstrap/messages.php - Line:13
+
+
+
+[Tue Jan 2 8:05:11] Debug - File:/var/www/framework/App/Middleware/GuestMiddleware.php - Line:15
+in guest middleware : /user/signup
+

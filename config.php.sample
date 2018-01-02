@@ -1,0 +1,29 @@
+<?php
+define('IS_LIVE', false);
+
+define('DB_HOST', '127.0.0.1');
+define('DB_NAME', 'familytalk');
+define('DB_USER', 'dbuser');
+define('DB_PASSWORD', 'password');
+define('DB_PORT', 3306);
+
+define('MEMC_SERVER', '127.0.0.1');
+define('MEMC_PORT', '11211');
+
+define('SITENAME', 'IEQ Technology Framework');
+
+define('LTE', false);
+
+define('BYPASS_TX', false);
+
+define('SMARTY_DEBUG', false);
+define('JS_VERSION', 1);
+
+// SMTP server settings
+define('SMTP_HOST', 'smtp.office365.com');
+define('SMTP_USERNAME', 'smtpUser');
+define('SMTP_PASSWORD', 'smtpPass');
+define('SMTP_FROM_EMAIL', true);
+define('SMTP_FROM_NAME', true);
+define('SMTP_REPLY_TO', true);
+define('SMTP_REPLY_TO_NAME', true);

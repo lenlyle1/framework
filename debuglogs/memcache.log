@@ -1,0 +1,3120 @@
+
+[Fri Dec 29 5:51:46] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:51:46] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:51:46] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:51:46] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:51:46] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:51:46] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:51:46] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:51:46] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:51:46] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:51:46] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:52:04] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:52:04] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:52:04] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:52:04] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:52:04] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:52:04] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:59:29] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:29] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:59:29] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:59:29] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:29] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:59:29] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:59:56] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:56] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:59:56] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 5:59:56] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:56] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 5:59:56] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:00:38] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:00:38] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:00:38] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:00:38] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:00:38] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:00:38] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:02:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:02:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:02:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:02:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:02:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:02:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:02:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:02:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:08] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:08] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:08] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:08] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:08] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:08] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:21] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:21] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:21] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:21] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:03:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:04:37] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:04:37] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:04:37] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:04:37] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:08:54] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:08:54] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:08:54] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:08:54] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:01] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:01] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:01] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:01] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:09:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:11:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:11:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:11:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:11:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:12:25] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:25] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:12:25] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:12:25] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:25] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:12:25] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:12:33] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:33] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:12:33] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:12:33] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:33] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:12:33] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:18] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:18] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:18] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:18] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:18] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:18] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:19] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:19] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:19] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 6:13:19] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:19] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 6:13:19] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:08:45] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:08:45] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:08:45] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:08:45] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:08:45] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:08:45] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:09:31] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:09:31] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:09:31] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:09:31] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:09:31] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:09:31] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:17:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:17:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:17:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:17:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:05] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:05] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:05] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:05] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:05] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:05] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:10] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:10] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:10] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:10] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:10] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:10] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:26] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:26] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:26] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:43:26] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:26] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:43:26] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:50:38] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:50:38] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:50:38] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 10:50:38] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:50:38] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 10:50:38] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 11:12:27] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:12:27] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 11:12:27] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 11:12:27] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:12:27] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 11:12:27] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 11:15:11] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:15:11] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 11:15:11] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 11:15:11] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:15:11] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 11:15:11] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:00:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:00:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:00:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:00:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:00:59] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:59] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:00:59] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:00:59] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:59] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:00:59] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:00] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:00] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:00] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:00] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:00] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:00] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:06] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:06] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:06] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:06] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:06] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:06] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:08] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:08] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:08] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:08] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:08] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:08] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:25] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:25] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:25] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:01:25] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:25] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:01:25] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:02:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:02:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:02:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:02:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:02:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:02:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:09] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:09] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:09] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:09] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:09] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:09] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:46] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:46] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:46] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:03:46] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:46] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:03:46] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:05:51] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:05:51] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:05:51] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:05:51] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:05:51] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:05:51] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:06:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:06:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:06:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Fri Dec 29 12:06:53] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:02:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:02:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:02:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:02:47] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:02:47] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:02:47] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:30] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:30] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:30] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:33] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:33] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:33] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:33] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:33] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:33] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:35] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:35] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:35] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:39] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:39] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:39] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Sat Dec 30 8:04:39] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:39] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Sat Dec 30 8:04:39] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:03] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:03] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:03] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:05] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:05] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:05] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:05] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:05] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:05] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:09] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:09] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:09] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:09] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:09] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:09] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:03:52] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:52] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:03:52] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:14] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:14] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:14] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:14] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:04:15] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:05:11] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:05:11] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:05:11] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] Memc key not found:  - File:/var/www/framework/App/Lib/Database/Memc.php - Line:69
+tzList
+
+
+[Tue Jan 2 8:05:11] SQL - File:/var/www/framework/App/Lib/Database/Memc.php - Line:74
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:05:11] PARAMS - File:/var/www/framework/App/Lib/Database/Memc.php - Line:75
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] ACTION - File:/var/www/framework/App/Lib/Database/Memc.php - Line:76
+fetchAll
+
+
+[Tue Jan 2 8:05:11] DATA - File:/var/www/framework/App/Lib/Database/Memc.php - Line:77
+Array
+
+
+

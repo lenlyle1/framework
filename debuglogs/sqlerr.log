@@ -1,0 +1,4626 @@
+
+[Fri Dec 29 5:51:46] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:51:46] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:51:46] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:51:46] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:51:46] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:51:46] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:52:04] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:52:04] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:52:04] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:52:04] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:52:04] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:59:29] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:29] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:59:29] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:59:29] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:29] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:59:56] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:56] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 5:59:56] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 5:59:56] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 5:59:56] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:00:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:00:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:00:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:00:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:00:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:02:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:02:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:02:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:02:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:02:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:02:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:02:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:21] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:21] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:21] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:03:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:03:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:03:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:04:37] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:04:37] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:04:37] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:08:54] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:08:54] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:08:54] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 6:09:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:09:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:09:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:09:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:11:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:11:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:11:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:12:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:12:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:12:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:12:33] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:33] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:12:33] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:12:33] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:12:33] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 6:13:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:18] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:18] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:18] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:18] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:18] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:19] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:19] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:19] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 6:13:19] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 6:13:19] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 6:13:19] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 6:13:19] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:08:45] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:08:45] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:08:45] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:08:45] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:08:45] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:08:45] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:08:45] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:09:31] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:09:31] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:09:31] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:09:31] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:09:31] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:09:31] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:09:31] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:17:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:17:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:17:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:17:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:43:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:10] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:10] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:10] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:10] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:10] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:26] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:26] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:26] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:43:26] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:43:26] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:43:26] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:43:26] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:50:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:50:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 10:50:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 10:50:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 10:50:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 10:50:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 10:50:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 11:12:27] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:12:27] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 11:12:27] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:12:27] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:12:27] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 11:12:27] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 11:12:27] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 11:15:11] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:15:11] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 11:15:11] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 11:15:11] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 11:15:11] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 11:15:11] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 11:15:11] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:00:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:59] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:59] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:59] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:00:59] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:00:59] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:00:59] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:00:59] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:00] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:00] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:00] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:00] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:00] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:01:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:06] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:06] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:06] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:06] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:06] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:01:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:01:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:01:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:01:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:01:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:02:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:02:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:02:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:02:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:02:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:02:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:02:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:03:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:09] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:09] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:09] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:09] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:09] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:09] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:03:09] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:46] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:46] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:46] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:03:46] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:03:46] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:03:46] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:03:46] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:05:51] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:05:51] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:05:51] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:05:51] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:05:51] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:05:51] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:05:51] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Fri Dec 29 12:06:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Fri Dec 29 12:06:53] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.gender' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Mysql/ORM/ORM.php (Line: 162)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 65)
+    Function: getAll()
+    File:  (Line: )
+    Function: signup()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Dec 29 12:06:53] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT *
+                FROM gender LIMIT 0, 20 
+
+
+[Fri Dec 29 12:06:53] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:02:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:02:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:02:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:02:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:02:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:30] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:30] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:30] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:33] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:33] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:33] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:33] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:33] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:39] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:39] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Sat Dec 30 8:04:39] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Sat Dec 30 8:04:39] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Sat Dec 30 8:04:39] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:09] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:09] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:09] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:09] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:09] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:03:52] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:03:52] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:03:52] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:14] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:14] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:14] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:04:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:04:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:04:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 38)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:05:11] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:05:11] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
+
+[Tue Jan 2 8:05:11] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dating_site.time_zone' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Database/Memc.php (Line: 72)
+    Function: fetchAll()
+    File: /var/www/framework/App/Lib/Utils/Timezone.php (Line: 17)
+    Function: fetch()
+    File: /var/www/framework/App/Bootstrap/smarty.php (Line: 41)
+    Function: load()
+    File: /var/www/framework/App/Bootstrap/bootstrapSite.php (Line: 7)
+    Function: require_once()
+    File: /var/www/framework/public_html/index.php (Line: 11)
+    Function: require_once()
+-------------------------------
+
+
+
+[Tue Jan 2 8:05:11] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM time_zone
+
+
+[Tue Jan 2 8:05:11] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+
+
