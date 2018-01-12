@@ -19,14 +19,13 @@ class Site
         self::createUser([
             'email_address' => 'len@ieqtechnology.com',
             'username' => 'superadmin',
-            'password' => 'D9rdQ$s34',
+            'password' => 'test',
             'time_zone' => 11
         ]);
 
-        $userModel = new \Models\User;
+        $userModel = new \Models\Users;
         $user = $userModel->getOne('username', 'superadmin');
         User::saveUserRole($user->user_id, 'superadmin');
-
     }
 
     public static function createUser($params)

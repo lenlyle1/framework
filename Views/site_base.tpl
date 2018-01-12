@@ -8,10 +8,10 @@
         <meta name="description" content="{block name="meta_description"}{$site->description}{/block}" />
         <meta name="keyword" content="{block name="meta_keyword"}{$site->keywords}{/block}" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         {block name="css"}
-            {embedcss cssfile="/assets/css/geometry.css"}
+            {** embedcss cssfile="/assets/css/geometry.css"}
             {embedcss cssfile="/assets/css/responsive.css"}
-            {embedcss cssfile="/assets/css/forms.css"}
             {embedcss cssfile="/assets/css/styles.css"}
             {embedcss cssfile="/assets/css/globalStyles.css"}
             {embedcss cssfile="/assets/css/site-styles.css"}
@@ -20,13 +20,13 @@
 
             {if !empty($siteStyle)}
                 {embedcss cssfile="/assets/css/`$siteStyle`.css"}
-            {/if}
+            {/if **}
         {/block}
 
-        {include file="site-css.tpl"}
-
         {block name="js"}
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
         {/block}
         
         {compile_stack}
@@ -52,24 +52,7 @@
                             <span class="site-name">{ucwords($site->shortname)}</span> up my Love
                         </a>
                     </div>
-
                 </div>
-                <div class="left">
-                    {include file="top-menu.tpl"}
-                </div>
-                {if !empty($user)}
-                    <div class="right">
-                        <a class="btn btn-head" href="/user/logout">Logout</a>
-                    </div>
-                {else }
-                    <div class="right top-signin" >
-                        <a class="btn btn-head" href="/user/signup">Signup</a>
-                        {if $site->status != "prelaunch"}
-                            or
-                            <a class="btn btn-head" href="/user/login">Login</a>
-                        {/if}
-                    </div>
-                {/if}
             </div>
         </header>
         <div class="contentHolder main-body">

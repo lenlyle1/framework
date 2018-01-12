@@ -8,25 +8,17 @@
 
 
 {block name="search-bar"}
-    <div class="partial half left">
-        {if \Lib\User\User::can('add_'|cat:$userType|lower, $userPermissions)}
-            <button id="add-user" class="whole-form_open btn btn-primary" data-toggle="modal" data-target="#myModal">Add New {if $userType == 'patients'}Patient{else}Staff Member{/if}</button>
-        {/if}
+    <div class="col-md-6">
+        Users
     </div>
-    <br>
-    <div class="partial half right">
-        {if \Lib\User\User::can('import_patients', $userPermissions) && $userType == 'patients'}
-            <button id="import-users" class=" pure-button btn btn-success btn-sm" data-toggle="modal" data-target="#import">Import Patient List</button>
-        {/if}
+    <div class="col-md-6">
+        Roles
     </div>
-    <br>
 {/block}
 
 {block name="content"}
 
-    {if $userType}
-        {include file="admin/pages/partials/user_"|cat:$userType|cat:".tpl"}
-    {/if}
+        {include file="admin/pages/partials/users.tpl"}
 
     {** IMPORTER **}
     <div id="importer">

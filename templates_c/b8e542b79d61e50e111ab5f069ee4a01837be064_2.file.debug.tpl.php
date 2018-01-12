@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-12-29 11:12:27
+/* Smarty version 3.1.31, created on 2018-01-05 12:04:45
   from "/var/www/framework/vendor/smarty/smarty/libs/debug.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a46939bd92ba9_46227697',
+  'unifunc' => 'content_5a4fda5d668983_46328806',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a46939bd92ba9_46227697 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a4fda5d668983_46328806 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_debug_print_var')) require_once '/var/www/framework/vendor/smarty/smarty/libs/plugins/modifier.debug_print_var.php';
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, '_smarty_debug', 'debug_output', null);?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -172,7 +172,7 @@ $_smarty_tpl->tpl_vars['vars']->iteration = 0;
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['vars']->key => $_smarty_tpl->tpl_vars['vars']->value) {
 $_smarty_tpl->tpl_vars['vars']->iteration++;
-$__foreach_vars_1_saved = $_smarty_tpl->tpl_vars['vars'];
+$__foreach_vars_11_saved = $_smarty_tpl->tpl_vars['vars'];
 ?>
             <tr class="<?php if ($_smarty_tpl->tpl_vars['vars']->iteration%2 == 0) {?>odd<?php } else { ?>even<?php }?>">
                 <td><h3><font color=blue>$<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['vars']->key, ENT_QUOTES, 'UTF-8');?>
@@ -186,7 +186,7 @@ $__foreach_vars_1_saved = $_smarty_tpl->tpl_vars['vars'];
                 <td><?php if (isset($_smarty_tpl->tpl_vars['vars']->value['attributes'])) {?><h3>Attributes</h3><?php echo smarty_modifier_debug_print_var($_smarty_tpl->tpl_vars['vars']->value['attributes']);?>
  <?php }?></td>
          <?php
-$_smarty_tpl->tpl_vars['vars'] = $__foreach_vars_1_saved;
+$_smarty_tpl->tpl_vars['vars'] = $__foreach_vars_11_saved;
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
@@ -203,7 +203,7 @@ $_smarty_tpl->tpl_vars['vars']->iteration = 0;
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['vars']->key => $_smarty_tpl->tpl_vars['vars']->value) {
 $_smarty_tpl->tpl_vars['vars']->iteration++;
-$__foreach_vars_2_saved = $_smarty_tpl->tpl_vars['vars'];
+$__foreach_vars_12_saved = $_smarty_tpl->tpl_vars['vars'];
 ?>
             <tr class="<?php if ($_smarty_tpl->tpl_vars['vars']->iteration%2 == 0) {?>odd<?php } else { ?>even<?php }?>">
                 <td><h3><font color=blue>#<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['vars']->key, ENT_QUOTES, 'UTF-8');?>
@@ -215,7 +215,7 @@ $__foreach_vars_2_saved = $_smarty_tpl->tpl_vars['vars'];
 </td>
             </tr>
         <?php
-$_smarty_tpl->tpl_vars['vars'] = $__foreach_vars_2_saved;
+$_smarty_tpl->tpl_vars['vars'] = $__foreach_vars_12_saved;
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);

@@ -3,6 +3,7 @@
 namespace Lib\Validation;
 
 use \Lib\Debug\Debugger;
+use \Lib\Database\DbGetter;
 
 abstract class Validation
 {
@@ -13,12 +14,18 @@ abstract class Validation
         $this->errors[$field][] = $error;
     }
 
-    public function fieldInDb($modelName, $fieldName, $value)
+    public function fieldInDb($tableName, $fieldName, $value)
     {
-        $modelName = '\\Models\\' . $modelName;
-        $model = new $modelName();
+        $db = DbGetter::getDb();
 
-        return $model->getOne($fieldName, $value);
+        $sql = "SELECT * FROM $tableName
+                WHERE $fieldName = ?";
+
+        if($db->fetchOne($sql, [$value]) == null){
+            return false;
+        }
+
+        return true;
     }
 
     public function formatFieldName($fieldName)
@@ -38,19 +45,29 @@ abstract class Validation
     public function testEmail($email)
     {
         $result = filter_var($email, FILTER_VALIDATE_EMAIL);
+
         // Debugger::debug($result);
-        if (!$result) {
+        if (empty($result)) {
             $this->setError('email_address', 'Invalid email format');
             return false;
         }
+
+        return true;
+    }
+
+    public function length($value, $length)
+    {
+        return strlen($value) >= $length;
     }
 
     public  function checkRequired($requiredFields, $params)
     {
-        foreach ($requiredFields as $field) {
-            if(!$this->notEmpty($params[$field])){
-                Debugger::debug($field . ' empty');
-                $this->setError($field, $this->formatFieldName($field) . ' is required');
+        if(!empty($requiredFields)){
+            foreach ($requiredFields as $field) {
+                if(!$this->notEmpty($params[$field])){
+                    Debugger::debug($field . ' empty');
+                    $this->setError($field, $this->formatFieldName($field) . ' is required');
+                }
             }
         }
     }

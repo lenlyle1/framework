@@ -12,7 +12,7 @@ class Timezone
 
         $db = DbGetter::getDb();
 
-        $sql = "SELECT * FROM time_zone";
+        $sql = "SELECT * FROM time_zones";
 
         return $memc->fetch($sql, [], 'fetchAll', 3600, 'tzList');
         //return $db->fetchAll($sql);

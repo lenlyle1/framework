@@ -20,7 +20,7 @@
     <header class="main-header">
         <a href="/" class="logo">
             <span class="logo-mini">CTH</span>
-            <span class="logo-lg">Connection to Health Admin</span>
+            <span class="logo-lg">{$sitename} Admin</span>
         </a>
         <nav class="navbar navbar-static-top " role="navigation" style="color: #fff; font-size: 3rem;">
             <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="font-size: .5em;"></a>
@@ -38,6 +38,8 @@
             <ul class="sidebar-menu">
                 <li class="header">Menu</li>
                 <li {if $route['name'] == 'admin-dashboard'}class="active"{/if}><a href="/admin/dashboard">Dashboard</a></li>
+
+                <li><a href="{pathFor name='admin-users'}">Users</a></li>
                 {if \Lib\User\User::can('edit_roles', $userPermissions)}
                     <li><a href="{pathFor name='admin-list-roles'}">Roles</a></li>
                 {/if}
@@ -46,21 +48,6 @@
                 {/if}
                 {if \Lib\User\User::can('edit_translations', $userPermissions)}
                     <li><a href="{pathFor name='admin-translations'}">Translations</a></li>
-                {/if}
-                {if \Lib\User\User::can('view_patients', $userPermissions)}
-                    <li class="patients-bg{if preg_match('/^\/admin\/user[s]?\/patient/', $currentUrl)}-active{/if}"><a href="{pathFor name='admin-list-patients'}">Manage Patients</a></li>
-                {/if}
-                {if \Lib\User\User::can('view_staff', $userPermissions)}
-                    <li class="staff-bg{if preg_match('/^\/admin\/user[s]?\/staff/', $currentUrl)}-active{/if}"><a href="{pathFor name='admin-list-staff'}">Manage Staff</a></li>
-                {/if}
-                {if \Lib\User\User::can('view_practices', $userPermissions)}
-                    <li class="practice-bg{if preg_match('/^\/admin\/practice/', $currentUrl)}-active{/if}"><a {if $route['name'] == 'admin-list-practices'}class="active"}{/if}href="/admin/practices">Manage Practices</a></li>
-                {/if}
-                {if \Lib\User\User::can('view_groups', $userPermissions)}
-                    <li class="groups-bg{if preg_match('/^\/admin\/group/', $currentUrl)}-active{/if}"><a href="{pathFor name='admin-list-groups'}">Manage Groups</a></li>
-                {/if}
-                {if \Lib\User\User::can('view_reporting', $userPermissions)}
-                    <li class="reports-bg{if preg_match('/^\/admin\/report/', $currentUrl)}-active{/if}"><a {if $route['name'] == 'admin-reporting'}class="active"}{/if}href="/admin/reporting">Reporting</a></li>
                 {/if}
             </ul>
         </section>

@@ -16,7 +16,7 @@ class UserApiController extends BaseController
 {
     public static function loadUsers($router, $params)
     {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
         return $userApi->load();
     }
@@ -25,16 +25,9 @@ class UserApiController extends BaseController
     {
         Debugger::debug($params);
         //Debugger::debug($router->generate('api-load-user', array('userId' => '1d3ed72a0dcf11e7a4f584ef186498da')));
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
-        return $userApi->load(null, $params['userId']);
-    }
-
-    public static function loadMotivationalPrompt($router, $params)
-    {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
-
-        die($userApi->loadMotivationalPrompt($params['promptId']));
+        return $userApi->load($params['userId']);
     }
 
     public static function saveUser($router, $params)
@@ -105,14 +98,6 @@ class UserApiController extends BaseController
         return $userApi->loadPermissions();
     }
 
-    public static function savePractice($router, $params)
-    {
-        Debugger::debug($_POST);
-        $practiceApi = new PracticeAPI($_GET['auth_id'], $_GET['auth_public']);
-
-        return $practiceApi->savePractice($_POST);
-    }
-
     public static function importUsers($router, $params)
     {
         $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
@@ -120,27 +105,4 @@ class UserApiController extends BaseController
         return $userApi->importUsers($_POST);
     }
 
-    public static function deleteCoach($router, $params)
-    {
-        Debugger::debug('deleting coach');
-
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
-
-        return $userApi->deleteCoach($_POST['user_id'], $_POST['coach_id'], $_POST['type']);
-    }
-
-    public static function loadQuestionsAndAnswers($router, $params)
-    {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
-
-        $answers = $userApi->loadQuestionsAndAnswers($params['batchId']);
-
-        foreach($answers as $k => $answer){
-            $answers[$k]->wark = preg_replace('/[\[\]]/', '', $answer->wark);
-        }
-
-        \Lib\Smarty\Template::assign('answers', $answers);
-
-        return 'pages/surveyanswers-basic';
-    }
 }

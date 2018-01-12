@@ -6,8 +6,8 @@ $router->addGroup('', function($router){
 
     $router->addGroup('/user', function($router){
         // signup
-        $router->add( 'GET',  '/signup', 'PageController:signup', 'user.signup-form');
-        $router->add( 'POST',  '/signup', 'UserController:signup', 'user.signup');
+        $router->add( 'GET',  '/signup', 'UserController:signup', 'user.signup-form');
+        $router->add( 'POST',  '/signup', 'UserController:processSignup', 'user.signup');
                // ->addMiddleware('before', 'CsrfMiddleware:authenticate');
     });
     $router->add( 'GET', '/', 'PageController:home', 'home' );
@@ -20,4 +20,4 @@ $router->addGroup('', function($router){
     $router->add('POST', '/forgot-password-request', 'UserController:submitPasswordResetRequest', 'forgot-password-reset-request');
 
     $router->add( 'GET', '/login-help', 'PageController:loginHelp', 'login-help' );
-})->addMiddleWare('before',  'GuestMiddleware:run');
+});

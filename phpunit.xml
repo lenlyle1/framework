@@ -3,8 +3,8 @@
 		 bootstrap="phpunit_bootstrap.php"
 	 	 cacheTokens="true">
     <testsuites>
-        <testsuite name="Application Test Suite">
-            <directory>./tests/</directory>
+        <testsuite name="User Tests">
+            <directory>tests/user/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

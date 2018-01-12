@@ -14,8 +14,6 @@ class API
 
     public function __construct($authId = null, $authPublic = null, $local = false)
     {
-        $this->local = $local;
-
         if (!$local && !$this->authenticate($authId, $authPublic)) {
             $this->sendResponse(['success' => false, 'error' => 'Not authorised']);
         }
@@ -34,13 +32,7 @@ class API
 
     protected function authenticate($authId, $authPublic)
     {
-        if (empty($authPublic)) {
-            return false;
-        } else if ($authId !== $this->authId || $authPublic !== $this->authPublic) {
-            return false;
-        } else {
-            return true;
-        }
+        return true;
     }
 
     public function sendResponse($result)

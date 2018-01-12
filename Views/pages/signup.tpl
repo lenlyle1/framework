@@ -16,3 +16,8 @@
 </main>
 
 {/block}
+
+
+{block name="js" append}
+    <script src="/assets/scripts/signup.js"></script>
+{/block}

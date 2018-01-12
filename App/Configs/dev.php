@@ -2,13 +2,13 @@
 
 $settings = new stdClass;
 
-
+$settings->sitename = 'Framework';
 /*
 	Mysql
 */
 $settings->db = new stdClass;
 $settings->db->host = '127.0.0.1';
-$settings->db->name = 'dating_site';
+$settings->db->name = 'framework_base';
 $settings->db->user = 'len';
 $settings->db->pass = 'B0ll0cks1';
 $settings->db->port = 3306;

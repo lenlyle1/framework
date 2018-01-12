@@ -38,7 +38,7 @@ var Users = {
         })
 
         $("#import-users").click(function(){
-            Logging.log('Importing users');
+            console.log('Importing users');
             //$("#importer").popup('show');
         });
 
@@ -55,7 +55,7 @@ var Users = {
         });
 
         $('#search-box').on('keyup', function(){
-            Logging.log($(this).val())
+            console.log($(this).val())
         })
 
         $('body').on('click', '.report-trigger', function(){
@@ -113,7 +113,7 @@ var Users = {
         //     }).done(function(data) {
         //         var json_data = JSON.parse(data).payload;
 
-        //         Logging.log(json_data);
+        //         console.log(json_data);
 
         //             //populate the form values:
         //             $('span.action_plan_id').text(json_data.action_plan_id);
@@ -183,11 +183,11 @@ var Users = {
         });
 
         $('.delete_coach').click(function(){
-            Logging.log('Deleting coach')
+            console.log('Deleting coach')
             Users.deleteCoach($(this).data('user_id'), $(this).data('coach_id'), $(this).data('type'));
         })
         $('.delete_provider').click(function(){
-            Logging.log('Deleting provider')
+            console.log('Deleting provider')
             Users.deleteCoach($(this).data('user_id'), $(this).data('coach_id'), $(this).data('type'));
         })
     },
@@ -301,7 +301,7 @@ var Users = {
     // },
 
     ajaxUrl: function(link){
-        Logging.log(link);
+        console.log(link);
 
         window.location = link.attr('href');
         $.ajax({
@@ -309,7 +309,7 @@ var Users = {
             method: 'GET',
             dataType: 'html',
             success: function(response){
-                //Logging.log(response);
+                //console.log(response);
                 //$('#pageModal').find('.modal-body').html('sdshdifuashdifuahsdifuagsdifuagsdf');
                 $('#pageModal').modal()
             }
@@ -347,16 +347,16 @@ var Users = {
 
     deleteCoach: function(user_id, coach_id, type){
         // ajax delete coach
-        Logging.log({user_id: user_id, coach_id: coach_id, type: type})
+        console.log({user_id: user_id, coach_id: coach_id, type: type})
         $.ajax({
             url: '/api/user/delete-coach?auth_id='+auth_id+'&auth_public='+auth_public,
             method: 'POST',
             data: {user_id: user_id, coach_id: coach_id, type: type},
             success: function(response){
-                Logging.log(response)
+                console.log(response)
                 $(".form-error").remove();
                 if(!response.success){
-                    Logging.log('Deleting coach failed');
+                    console.log('Deleting coach failed');
                 } else {
                     // close popup
                     $("#whole-form").popup('hide');
@@ -371,7 +371,7 @@ var Users = {
             url: '/admin/users/login-as/' + $(button).data('user_id'),
             method: 'GET',
             success: function(response){
-                Logging.log(response);
+                console.log(response);
                 if($(button).data('redirect-url')){
                     window.location = $(button).data('redirect-url');
                 } else {
@@ -382,7 +382,7 @@ var Users = {
     },
 
     filter: function(txt){
-        Logging.log('Searching for: ' + txt);
+        console.log('Searching for: ' + txt);
 
         $('td').each(function(){
 
@@ -391,7 +391,7 @@ var Users = {
 
     showUserForm: function(userType){
         $(".form-error").remove();
-        Logging.log(userType);
+        console.log(userType);
         if(userType == 'translator' || userType == 'cth administrator' || userType == 'cth groupleader'){
             $('#practice').hide();
         } else {
@@ -413,7 +413,7 @@ var Users = {
             if($(this).is(':visible') && $(this).val() == '') {
                 $(this).css('border-color', '#f00');
                 $("label[for='"+$(this).attr('id')+"']").css('color', '#f00');
-                Logging.log($(this).attr('name') + ' is required');
+                console.log($(this).attr('name') + ' is required');
                 valid = false;
             }
         })
@@ -434,14 +434,14 @@ var Users = {
     },
 
     submitForm: function(){
-        Logging.log('saving user');
+        console.log('saving user');
         $.ajax({
-            url: '/api/user?auth_id='+auth_id+'&auth_public='+auth_public,
+            url: '/api/user',
             method: 'POST',
             data: $("#user-details").serialize(),
             success: function(response){
                 $(".form-error").remove();
-                Logging.log(response);
+                console.log(response);
                 if(!response.success){
                     $.each(response.errors, function(field, errors){
                         $.each(errors, function(id, error){
@@ -469,32 +469,18 @@ var Users = {
         $('#user_role').val(user.role_name.toLowerCase());
         $('#time_zone').val(user.time_zone_id);
         $('#user-details').prepend('<input type="hidden" name="user_id" id="user_id" value="'+user.user_id+'" />');
-        $('#user-details').prepend('<input type="hidden" name="user_profile_id" id="user_profile_id" value="'+user.user_profile_id+'" />');
 
         $.each(user, function(index, item){
-            if(index != 'is_coach' && index != 'is_provider'){
-                $('#'+index).val(item);
-            }
+            $('#'+index).val(item);
         });
-
-        $('#confirm_email').val(user.email_address);
-        if(user.is_coach == '1'){
-            $('#is_coach').prop('checked', true);
-        }
-
-        if(user.is_provider == 1){
-            $('#is_provider').prop('checked', true);
-        }
-
-
     },
 
     getUser: function(userId){
         $.ajax({
-            url: '/api/user/'+userId+'?auth_id='+auth_id+'&auth_public='+auth_public,
+            url: '/api/user/'+userId,
             method: 'GET',
             success: function(response){
-                Logging.log(response);
+                console.log(response);
                 if(!response.success){
 
                 } else {
@@ -507,7 +493,7 @@ var Users = {
     },
 
     upload: function(){
-        Logging.log("Uploading Patients");
+        console.log("Uploading Patients");
         var fd = new FormData(document.getElementById("upload-form"));
         fd.append("label", "WEBUPLOAD");
         $.ajax({
@@ -518,7 +504,7 @@ var Users = {
             processData: false,  // tell jQuery not to process the data
             contentType: false   // tell jQuery not to set contentType
         }).done(function( response ) {
-            Logging.log( response );
+            console.log( response );
 
             if(response.noFile){
                 $('#upload-response').html('You must select a file to upload').addClass('error')

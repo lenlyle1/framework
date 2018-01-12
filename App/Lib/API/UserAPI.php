@@ -15,15 +15,16 @@ class UserAPI extends API
         parent::__construct($authId, $authPublic, $local);
     }
 
-    public function load($id = null, $practiceId= null, $userType = null)
+    public function load($id = null, $username = null, $email = null)
     {
-        $result = User::load($id, $practiceId, $userType);
+        $result = User::load($id, $username, $email);
 
         return $this->sendResponse($result);
     }
 
     public function save($params)
     {
+        Debugger::debug($params);
         $result = User::save($params);
 
         return $this->sendResponse($result);

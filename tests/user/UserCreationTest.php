@@ -2,36 +2,32 @@
 
 namespace Test;
 
-use \Lib\User\User;
+use Models\Users as UserModel;
+use Lib\User\User;
 
-class UserCreationTest extends \PHPUnit\Framework\TestCase 
+class UserCreationTest extends \PHPUnit\Framework\TestCase  
 {
 
-	// public function testDbConnection()
-	// {
-	// 	$result = \Lib\Search\RunSearch::go();
-
-	// 	var_dump($result);
-	// }
+	use \Lib\Seeding\Traits\FlushTable;
 
 	public function testUserCreation()
 	{
 		$params = [
-			'username' 	=> 'lenlyle',
+			'username' 	=> 'lenlyle1',
 			'password' 	=> 'T3mpP4ss',
-			'email'		=> 'lenlyle@gmail.com',
+			'email'		=> 'lenlyle1@gmail.com',
 			'gender'    => 'm'
 		];
 
-		$id = User::save($params);
-
-		var_dump($id);
+        $user = new User();
+		$response = $user->save($params);
+        $this->assertTrue($response['success']);
 	}
 
 	protected function tearDown()
     {
 		// users
 		$user = new UserModel();
-		//$this->flushTable($user->table);
+		$this->flushTable($user->table);
     }
 }
