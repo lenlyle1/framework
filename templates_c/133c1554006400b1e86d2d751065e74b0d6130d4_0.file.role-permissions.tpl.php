@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-01-08 10:10:40
+/* Smarty version 3.1.31, created on 2018-01-12 12:12:58
   from "/var/www/framework/Views/admin/pages/role-permissions.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a53b4200918d8_36926129',
+  'unifunc' => 'content_5a5916cb00dca0_83071945',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '133c1554006400b1e86d2d751065e74b0d6130d4' => 
     array (
       0 => '/var/www/framework/Views/admin/pages/role-permissions.tpl',
-      1 => 1499702023,
+      1 => 1515787939,
       2 => 'file',
     ),
   ),
@@ -20,40 +20,40 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a53b4200918d8_36926129 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a5916cb00dca0_83071945 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14051414825a53b420083930_43938082', "page_heading");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15730707795a5916cb000336_42959075', "page_heading");
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2009601225a53b420086e02_94837889', "search-bar");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20541076085a5916cb002cf5_74975401', "search-bar");
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4022333255a53b420088605_95359626', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6038581495a5916cb0044a1_85521603', "content");
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_954590815a53b420090a20_10843917', "footer_scripts");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_9424455485a5916cb00cd44_67616521', "footer_scripts");
 ?>
 
-<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, './switcher.tpl');
+<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'admin/admin_lte_base.tpl');
 }
 /* {block "page_heading"} */
-class Block_14051414825a53b420083930_43938082 extends Smarty_Internal_Block
+class Block_15730707795a5916cb000336_42959075 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_heading' => 
   array (
-    0 => 'Block_14051414825a53b420083930_43938082',
+    0 => 'Block_15730707795a5916cb000336_42959075',
   ),
 );
 public $append = 'true';
@@ -67,12 +67,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "page_heading"} */
 /* {block "search-bar"} */
-class Block_2009601225a53b420086e02_94837889 extends Smarty_Internal_Block
+class Block_20541076085a5916cb002cf5_74975401 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'search-bar' => 
   array (
-    0 => 'Block_2009601225a53b420086e02_94837889',
+    0 => 'Block_20541076085a5916cb002cf5_74975401',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -80,12 +80,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "search-bar"} */
 /* {block "content"} */
-class Block_4022333255a53b420088605_95359626 extends Smarty_Internal_Block
+class Block_6038581495a5916cb0044a1_85521603 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_4022333255a53b420088605_95359626',
+    0 => 'Block_6038581495a5916cb0044a1_85521603',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -128,12 +128,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 }
 /* {/block "content"} */
 /* {block "footer_scripts"} */
-class Block_954590815a53b420090a20_10843917 extends Smarty_Internal_Block
+class Block_9424455485a5916cb00cd44_67616521 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer_scripts' => 
   array (
-    0 => 'Block_954590815a53b420090a20_10843917',
+    0 => 'Block_9424455485a5916cb00cd44_67616521',
   ),
 );
 public $append = 'true';

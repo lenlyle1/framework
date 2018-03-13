@@ -31,6 +31,7 @@ var Users = {
 
         $('#save').click(function(){
             Users.submitForm();
+            console.log('here')
             return false;
         })
         $('#cancel').click(function(){
@@ -51,6 +52,7 @@ var Users = {
         });
 
         $('.edit-user').click(function(){
+            console.log('clicked');
             Users.editUser(this);
         });
 
@@ -69,9 +71,9 @@ var Users = {
 
 
 
-        $('#myModal').on('shown.bs.modal', function () {
-            Users.resetUserForm();
-        });
+        // $('#myModal').on('shown.bs.modal', function () {
+        //     Users.resetUserForm();
+        // });
 
         $( function(){
             $("#date_of_birth").datepicker({
@@ -341,31 +343,6 @@ var Users = {
         $('.form-error').remove()
     },
 
-    resetUserForm: function(){
-        $('#user-details')[0].reset();
-    },
-
-    deleteCoach: function(user_id, coach_id, type){
-        // ajax delete coach
-        console.log({user_id: user_id, coach_id: coach_id, type: type})
-        $.ajax({
-            url: '/api/user/delete-coach?auth_id='+auth_id+'&auth_public='+auth_public,
-            method: 'POST',
-            data: {user_id: user_id, coach_id: coach_id, type: type},
-            success: function(response){
-                console.log(response)
-                $(".form-error").remove();
-                if(!response.success){
-                    console.log('Deleting coach failed');
-                } else {
-                    // close popup
-                    $("#whole-form").popup('hide');
-                    location.reload();
-                }
-            }
-        });
-    },
-
     loginAs: function(button){
         $.ajax({
             url: '/admin/users/login-as/' + $(button).data('user_id'),
@@ -477,17 +454,16 @@ var Users = {
 
     getUser: function(userId){
         $.ajax({
-            url: '/api/user/'+userId,
+            url: '/admin/users/edit/'+userId,
             method: 'GET',
             success: function(response){
-                console.log(response);
-                if(!response.success){
-
-                } else {
-                    var user = response.payload;
-                    Users.loadUserData(user);
-                    return user;
-                }
+                $('.modal-body').html(response);
+                
+                $('#save').click(function(){
+                    Users.submitForm();
+                    console.log('here')
+                    return false;
+                })      
             }
         });
     },

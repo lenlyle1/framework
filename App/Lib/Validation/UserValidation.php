@@ -23,9 +23,9 @@ class UserValidation extends Validation
         Debugger::debug($requiredFields);
         $this->checkRequired($requiredFields, $params);
 
-        if (!empty($params['user_id'])) {
+        if (!empty($params['userId'])) {
             $userModel = new UserModel();
-            $user = $userModel->getOne('user_id', $params['user_id']);
+            $user = $userModel->getOne('user_id', $params['userId']);
         }
 
         $req = [
@@ -34,6 +34,8 @@ class UserValidation extends Validation
             'check_password' => true,
         ];
 
+        Debugger::debug($params);
+        Debugger::debug($user);
         if (!empty($user)) {
             if($params['username'] == $user->username) {
                 $req['check_username'] = false;

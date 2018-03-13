@@ -2,7 +2,7 @@
 
 $settings = new stdClass;
 
-$settings->sitename = 'Framework';
+$settings->sitename = 'Firewood Farms';
 /*
 	Mysql
 */

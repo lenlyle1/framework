@@ -1,4 +1,4 @@
-{extends file='./switcher.tpl'}
+{extends file='admin/admin_lte_base.tpl'}
 
 {block name="page_heading" append}
     > Roles

@@ -13,12 +13,12 @@ trait UserProfileTrait
         Debugger::debug("SAVING USER PROFILE");
 
         $values = [
-            ':user_id' => $params['user_id'],
+            ':user_id' => $params['userId'],
             ':first_name' => $params['first_name'],
             ':last_name' => $params['last_name'],
             ':home_phone' => preg_replace('/[^0-9]/', '', $params['home_phone']),
             ':mobile_phone' => preg_replace('/[^0-9]/', '', $params['mobile_phone']),
-            ':gender_abbr' => $params['gender']
+            ':time_zone_id' => $params['time_zone']
         ];
 
         $sql = "INSERT INTO user_profile (
@@ -27,22 +27,20 @@ trait UserProfileTrait
                     last_name,
                     home_phone,
                     mobile_phone,
-                    gender_id
+                    time_zone_id
                 ) VALUES (
                     :user_id,
                     :first_name,
                     :last_name,
                     :home_phone,
                     :mobile_phone,
-                    (SELECT gender.gender_id
-                    WHERE gender.abbr = :gender_abbr)
+                    :time_zone_id
                 ) ON DUPLICATE KEY UPDATE
                     first_name = :first_name,
                     last_name = :last_name,
                     home_phone = :home_phone,
                     mobile_phone = :mobile_phone,
-                    SELECT gender.gender_id
-                    WHERE gender.abbr = :gender_abbr ";
+                    time_zone_id = :time_zone_id ";
 
 
         $db = DbGetter::getDb();

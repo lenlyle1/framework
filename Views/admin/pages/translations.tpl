@@ -1,4 +1,4 @@
-+{extends file='./switcher.tpl'}
+{extends file='./switcher.tpl'}
 
 {block name="page_heading" append}
     > {translate language=$language key="translations" text="Translations"}

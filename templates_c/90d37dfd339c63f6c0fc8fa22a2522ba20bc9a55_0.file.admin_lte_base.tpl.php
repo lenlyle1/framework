@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-01-08 10:00:22
+/* Smarty version 3.1.31, created on 2018-03-12 06:58:09
   from "/var/www/framework/Views/admin/admin_lte_base.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a53b1b65b48c4_38269627',
+  'unifunc' => 'content_5aa687719d00f2_95789316',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '90d37dfd339c63f6c0fc8fa22a2522ba20bc9a55' => 
     array (
       0 => '/var/www/framework/Views/admin/admin_lte_base.tpl',
-      1 => 1515434420,
+      1 => 1520863084,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a53b1b65b48c4_38269627 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aa687719d00f2_95789316 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_function_pathFor')) require_once '/var/www/framework/App/Lib/Smarty/Plugins/function.pathFor.php';
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
@@ -32,7 +32,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $_smarty_tpl->tpl_vars['sitename']->value;?>
  Admin <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1636384685a53b1b65a10f8_78527657', "title");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13013199135aa68771990229_20267640', "title");
 ?>
 </title>
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
@@ -45,6 +45,9 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1636384685a53b1b65
     <link rel="stylesheet" href="/assets/plugins/AdminLTE-2.3.11/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/plugins/AdminLTE-2.3.11/css/AdminLTE.css">
     <link rel="stylesheet" href="/assets/styles/admin/admin.css">
+            <?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"><?php echo '</script'; ?>
+>
 </head>
 <body class="hold-transition skin-cth sidebar-mini">
 <div class="wrapper">
@@ -73,9 +76,9 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1636384685a53b1b65
             <ul class="sidebar-menu">
                 <li class="header">Menu</li>
                 <li <?php if ($_smarty_tpl->tpl_vars['route']->value['name'] == 'admin-dashboard') {?>class="active"<?php }?>><a href="/admin/dashboard">Dashboard</a></li>
-
+<!-- 
                 <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-users'),$_smarty_tpl);?>
-">Users</a></li>
+">Users</a></li> -->
                 <?php if (\Lib\User\User::can('edit_roles',$_smarty_tpl->tpl_vars['userPermissions']->value)) {?>
                     <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-list-roles'),$_smarty_tpl);?>
 ">Roles</a></li>
@@ -83,10 +86,18 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1636384685a53b1b65
                 <?php if (\Lib\User\User::can('edit_permissions',$_smarty_tpl->tpl_vars['userPermissions']->value)) {?>
                     <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-list-permissions'),$_smarty_tpl);?>
 ">Permissions</a></li>
-                <?php }?>
+                <?php }?><!-- 
                 <?php if (\Lib\User\User::can('edit_translations',$_smarty_tpl->tpl_vars['userPermissions']->value)) {?>
                     <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-translations'),$_smarty_tpl);?>
 ">Translations</a></li>
+                <?php }?> -->
+                <?php if (\Lib\User\User::can('edit_pages',$_smarty_tpl->tpl_vars['userPermissions']->value)) {?>
+                    <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-pages'),$_smarty_tpl);?>
+">CMS Pages</a></li>
+                <?php }?>
+                <?php if (\Lib\User\User::can('edit_products',$_smarty_tpl->tpl_vars['userPermissions']->value)) {?>
+                    <li><a href="<?php echo smarty_function_pathFor(array('name'=>'admin-products'),$_smarty_tpl);?>
+">Products</a></li>
                 <?php }?>
             </ul>
         </section>
@@ -94,24 +105,24 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1636384685a53b1b65
     <div class="content-wrapper">
         <section class="content-header">
             <h1><?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15366481505a53b1b65ae025_19251098', "page_heading");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14337457825aa687719c1d89_87475464', "page_heading");
 ?>
 </h1>
         </section>
         <section class="content">
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18832579145a53b1b65aef70_89436026', "search-bar");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16850720545aa687719c38d8_16150676', "search-bar");
 ?>
 
             <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7065722425a53b1b65afc54_40972761', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16588938015aa687719c4896_09953836', "content");
 ?>
 
         </section>
     </div>
     <footer>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2814569515a53b1b65b0949_04187659', "footer_scripts");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14314741895aa687719c5710_99233497', "footer_scripts");
 ?>
 
     </footer>
@@ -135,12 +146,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 </html>
 <?php }
 /* {block "title"} */
-class Block_1636384685a53b1b65a10f8_78527657 extends Smarty_Internal_Block
+class Block_13013199135aa68771990229_20267640 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'title' => 
   array (
-    0 => 'Block_1636384685a53b1b65a10f8_78527657',
+    0 => 'Block_13013199135aa68771990229_20267640',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -148,12 +159,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "title"} */
 /* {block "page_heading"} */
-class Block_15366481505a53b1b65ae025_19251098 extends Smarty_Internal_Block
+class Block_14337457825aa687719c1d89_87475464 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_heading' => 
   array (
-    0 => 'Block_15366481505a53b1b65ae025_19251098',
+    0 => 'Block_14337457825aa687719c1d89_87475464',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -163,12 +174,12 @@ Admin<?php
 }
 /* {/block "page_heading"} */
 /* {block "search-bar"} */
-class Block_18832579145a53b1b65aef70_89436026 extends Smarty_Internal_Block
+class Block_16850720545aa687719c38d8_16150676 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'search-bar' => 
   array (
-    0 => 'Block_18832579145a53b1b65aef70_89436026',
+    0 => 'Block_16850720545aa687719c38d8_16150676',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -176,12 +187,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "search-bar"} */
 /* {block "content"} */
-class Block_7065722425a53b1b65afc54_40972761 extends Smarty_Internal_Block
+class Block_16588938015aa687719c4896_09953836 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_7065722425a53b1b65afc54_40972761',
+    0 => 'Block_16588938015aa687719c4896_09953836',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -189,12 +200,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "content"} */
 /* {block "footer_scripts"} */
-class Block_2814569515a53b1b65b0949_04187659 extends Smarty_Internal_Block
+class Block_14314741895aa687719c5710_99233497 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer_scripts' => 
   array (
-    0 => 'Block_2814569515a53b1b65b0949_04187659',
+    0 => 'Block_14314741895aa687719c5710_99233497',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -239,6 +250,9 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 >
             <?php echo '<script'; ?>
  src="/assets/scripts/admin/admin.js"><?php echo '</script'; ?>
+>
+            <?php echo '<script'; ?>
+ src="//cdn.ckeditor.com/4.8.0/standard/ckeditor.js"><?php echo '</script'; ?>
 >
         <?php
 }

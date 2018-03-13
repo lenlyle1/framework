@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/plugins/AdminLTE-2.3.11/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/plugins/AdminLTE-2.3.11/css/AdminLTE.css">
     <link rel="stylesheet" href="/assets/styles/admin/admin.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body class="hold-transition skin-cth sidebar-mini">
 <div class="wrapper">
@@ -38,16 +39,22 @@
             <ul class="sidebar-menu">
                 <li class="header">Menu</li>
                 <li {if $route['name'] == 'admin-dashboard'}class="active"{/if}><a href="/admin/dashboard">Dashboard</a></li>
-
-                <li><a href="{pathFor name='admin-users'}">Users</a></li>
+<!-- 
+                <li><a href="{pathFor name='admin-users'}">Users</a></li> -->
                 {if \Lib\User\User::can('edit_roles', $userPermissions)}
                     <li><a href="{pathFor name='admin-list-roles'}">Roles</a></li>
                 {/if}
                 {if \Lib\User\User::can('edit_permissions', $userPermissions)}
                     <li><a href="{pathFor name='admin-list-permissions'}">Permissions</a></li>
-                {/if}
+                {/if}<!-- 
                 {if \Lib\User\User::can('edit_translations', $userPermissions)}
                     <li><a href="{pathFor name='admin-translations'}">Translations</a></li>
+                {/if} -->
+                {if \Lib\User\User::can('edit_pages', $userPermissions)}
+                    <li><a href="{pathFor name='admin-pages'}">CMS Pages</a></li>
+                {/if}
+                {if \Lib\User\User::can('edit_products', $userPermissions)}
+                    <li><a href="{pathFor name='admin-products'}">Products</a></li>
                 {/if}
             </ul>
         </section>
@@ -78,6 +85,7 @@
             <script src="/assets/scripts/admin/logging.js"></script>
             <script src="/assets/scripts/admin/form-errors.js"></script>
             <script src="/assets/scripts/admin/admin.js"></script>
+            <script src="//cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
         {/block}
     </footer>
 </div>

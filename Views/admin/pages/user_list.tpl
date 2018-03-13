@@ -1,9 +1,9 @@
-{extends file='./switcher.tpl'}
+{extends file='admin/admin_lte_base.tpl'}
 
 {block name="page_title"}Users{/block}
 
 {block name="page_heading" append}
-    > Users > {ucwords($userType)}
+    Users > {ucwords($userType)}
 {/block}
 
 

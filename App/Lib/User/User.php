@@ -148,7 +148,7 @@ class User
     {
         $db = DbGetter::getDb();
 
-        $sql = "SELECT u.*, role_name 
+        $sql = "SELECT *
                 FROM users AS u
                 LEFT JOIN user_profile USING (user_id)
                 LEFT JOIN user_role USING (user_id)

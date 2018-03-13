@@ -32018,3 +32018,1609 @@ Array
       [:gender_abbr] => 
 
 
+
+[Thu Jan 11 16:35:58] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT gender.gender_id
+                    WHERE gender.abbr = NULL' at line 22
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 51)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:35:58] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone,
+                    gender_id
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone,
+                    (SELECT gender.gender_id
+                    FROM gender
+                    WHERE gender.abbr = :gender_abbr)
+                ) ON DUPLICATE KEY UPDATE
+                    first_name = :first_name,
+                    last_name = :last_name,
+                    home_phone = :home_phone,
+                    mobile_phone = :mobile_phone,
+                    SELECT gender.gender_id
+                    WHERE gender.abbr = :gender_abbr 
+
+
+[Thu Jan 11 16:35:58] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+      [:gender_abbr] => 
+
+
+
+[Thu Jan 11 16:37:03] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT gender.gender_id
+                    FROM gender
+                    WHER' at line 14
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 51)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:37:03] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone,
+                    gender_id
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone,
+                    SELECT gender.gender_id
+                    FROM gender
+                    WHERE gender.abbr = :gender_abbr
+                ) ON DUPLICATE KEY UPDATE
+                    first_name = :first_name,
+                    last_name = :last_name,
+                    home_phone = :home_phone,
+                    mobile_phone = :mobile_phone,
+                    SELECT gender.gender_id
+                    WHERE gender.abbr = :gender_abbr 
+
+
+[Thu Jan 11 16:37:03] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+      [:gender_abbr] => 
+
+
+
+[Thu Jan 11 16:51:17] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT gender.gender_id
+                    FROM gender
+                    WHER' at line 14
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 45)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:51:17] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone,
+                    gender_id
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone,
+                    SELECT gender.gender_id
+                    FROM gender
+                    WHERE gender.abbr = :gender_abbr
+                ) 
+
+
+[Thu Jan 11 16:51:17] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => 
+      [:last_name] => 
+      [:home_phone] => 
+      [:mobile_phone] => 
+      [:gender_abbr] => 
+
+
+
+[Thu Jan 11 16:51:43] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender_id' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 45)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:51:43] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone,
+                    gender_id
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone,
+                    (SELECT gender.gender_id
+                    FROM gender
+                    WHERE gender.abbr = :gender_abbr)
+                )
+
+
+[Thu Jan 11 16:51:43] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+      [:gender_abbr] => 
+
+
+
+[Thu Jan 11 16:52:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1364 Field 'gender_id' doesn't have a default value
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 45)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:52:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone
+                ) ON DUPLICATE KEY UPDATE
+                    first_name = :first_name,
+                    last_name = :last_name,
+                    home_phone = :home_phone,
+                    mobile_phone = :mobile_phone 
+
+
+[Thu Jan 11 16:52:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+      [:gender_abbr] => 
+
+
+
+[Thu Jan 11 16:53:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1364 Field 'time_zone_id' doesn't have a default value
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 44)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:53:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone
+                ) ON DUPLICATE KEY UPDATE
+                    first_name = :first_name,
+                    last_name = :last_name,
+                    home_phone = :home_phone,
+                    mobile_phone = :mobile_phone 
+
+
+[Thu Jan 11 16:53:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+
+
+
+[Thu Jan 11 16:54:13] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1364 Field 'language_id' doesn't have a default value
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/Traits/UserProfileTrait.php (Line: 44)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Lib/User/User.php (Line: 55)
+    Function: saveProfile()
+    File: /var/www/framework/App/Lib/API/UserAPI.php (Line: 28)
+    Function: save()
+    File: /var/www/framework/App/Controllers/UserApiController.php (Line: 37)
+    Function: save()
+    File:  (Line: )
+    Function: saveUser()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Thu Jan 11 16:54:13] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO user_profile (
+                    user_id,
+                    first_name,
+                    last_name,
+                    home_phone,
+                    mobile_phone
+                ) VALUES (
+                    :user_id,
+                    :first_name,
+                    :last_name,
+                    :home_phone,
+                    :mobile_phone
+                ) ON DUPLICATE KEY UPDATE
+                    first_name = :first_name,
+                    last_name = :last_name,
+                    home_phone = :home_phone,
+                    mobile_phone = :mobile_phone 
+
+
+[Thu Jan 11 16:54:13] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:user_id] => 0
+      [:first_name] => len
+      [:last_name] => test
+      [:home_phone] => 
+      [:mobile_phone] => 
+
+
+
+[Fri Jan 12 12:12:58] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_base.permission' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/UserRole/Roles.php (Line: 53)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/AdminController.php (Line: 54)
+    Function: loadPermissions()
+    File:  (Line: )
+    Function: rolePermissions()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Jan 12 12:12:58] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT p.*
+                FROM permission AS p
+                LEFT JOIN role_permission AS rp
+                    ON p.permission_id = rp.permission_id
+                WHERE rp.role_id = ?
+
+
+[Fri Jan 12 12:12:58] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [0] => 1
+
+
+
+[Fri Jan 12 12:13:04] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_base.permission' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/UserRole/Roles.php (Line: 53)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/AdminController.php (Line: 54)
+    Function: loadPermissions()
+    File:  (Line: )
+    Function: rolePermissions()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Jan 12 12:13:04] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT p.*
+                FROM permission AS p
+                LEFT JOIN role_permission AS rp
+                    ON p.permission_id = rp.permission_id
+                WHERE rp.role_id = ?
+
+
+[Fri Jan 12 12:13:04] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [0] => 1
+
+
+
+[Fri Jan 12 12:13:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_base.permission' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/User/UserRole/Roles.php (Line: 53)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/AdminController.php (Line: 54)
+    Function: loadPermissions()
+    File:  (Line: )
+    Function: rolePermissions()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Fri Jan 12 12:13:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT p.*
+                FROM permission AS p
+                LEFT JOIN role_permission AS rp
+                    ON p.permission_id = rp.permission_id
+                WHERE rp.role_id = ?
+
+
+[Fri Jan 12 12:13:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [0] => 1
+
+
+
+[Sat Mar 10 11:04:48] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 26)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 31)
+    Function: load()
+    File:  (Line: )
+    Function: edit()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Sat Mar 10 11:04:48] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM cms_pages WHERE url_name = ?
+
+
+[Sat Mar 10 11:04:48] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [url_name] => home
+
+
+
+[Sat Mar 10 11:04:58] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 47)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 26)
+    Function: fetchAll()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 31)
+    Function: load()
+    File:  (Line: )
+    Function: edit()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Sat Mar 10 11:04:58] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM cms_pages WHERE url_name = ?
+
+
+[Sat Mar 10 11:04:58] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [url_name] => home
+
+
+
+[Sat Mar 10 11:05:20] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 54)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 26)
+    Function: fetchOne()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 31)
+    Function: load()
+    File:  (Line: )
+    Function: edit()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Sat Mar 10 11:05:20] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM cms_pages WHERE url_name = ?
+
+
+[Sat Mar 10 11:05:20] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [url_name] => home
+
+
+
+[Sat Mar 10 11:06:08] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 54)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 26)
+    Function: fetchOne()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 31)
+    Function: load()
+    File:  (Line: )
+    Function: edit()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Sat Mar 10 11:06:08] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+SELECT * FROM cms_pages WHERE url_name = ?
+
+
+[Sat Mar 10 11:06:08] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [url_name] => home
+
+
+
+[Mon Mar 12 7:03:01] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_base.PAGES' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 7:03:01] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO PAGES (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 7:03:01] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => 
+      [:content] => 
+
+
+
+[Mon Mar 12 7:03:59] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'framework_base.PAGES' doesn't exist
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 7:03:59] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO PAGES (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 7:03:59] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => 
+      [:content] => 
+
+
+
+[Mon Mar 12 7:05:02] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url_name' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 7:05:02] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 7:05:02] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => 
+      [:content] => 
+
+
+
+[Mon Mar 12 7:05:58] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url_name' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 7:05:58] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 7:05:58] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => Homepage
+      [:content] => 
+
+
+
+[Mon Mar 12 7:06:45] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url_name' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 7:06:45] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 7:06:45] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => Homepage
+      [:content] => 
+
+
+
+[Mon Mar 12 9:25:05] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:25:05] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:25:05] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => home
+      [:title] => Home
+      [:content] => <p>This is the home page</p>
+
+
+
+
+[Mon Mar 12 9:26:39] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:26:39] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:26:39] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => home
+      [:title] => home
+      [:content] => <p>test</p>
+
+
+
+
+[Mon Mar 12 9:27:10] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:27:10] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:27:10] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => dfgh
+      [:title] => dfgh
+      [:content] => <p>dfgh</p>
+
+
+
+
+[Mon Mar 12 9:30:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:30:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:30:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => 
+      [:url_name] => 
+      [:title] => test
+      [:content] => 
+
+
+
+[Mon Mar 12 9:33:38] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'null' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:33:38] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:33:38] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => dfh
+      [:title] => dfgh
+      [:content] => <p>dfgh</p>
+
+
+
+
+[Mon Mar 12 9:36:15] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'null' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:36:15] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:36:15] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => asd
+      [:title] => asd
+      [:content] => <p>asd</p>
+
+
+
+
+[Mon Mar 12 9:39:12] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'null' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:39:12] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:39:12] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => test
+      [:title] => test
+      [:content] => <p>test</p>
+
+
+
+
+[Mon Mar 12 9:40:35] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'null' for column 'page_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Pages/Page.php (Line: 58)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/PageController.php (Line: 43)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 9:40:35] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO cms_pages (
+					page_id,
+					url_name,
+					title,
+					content
+				) VALUES (
+					:page_id,
+					:url_name,
+					:title,
+					:content
+				)
+                ON DUPLICATE KEY UPDATE
+                	url_name = :url_name,
+                	title = :title,
+                	content = :content
+
+
+[Mon Mar 12 9:40:35] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => dfgh
+      [:title] => dhfh
+      [:content] => <p>dfgh</p>
+
+
+
+
+[Mon Mar 12 18:10:47] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:10:47] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+
+
+
+[Mon Mar 12 18:10:47] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+
+
+
+[Mon Mar 12 18:12:25] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:12:25] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+
+
+
+[Mon Mar 12 18:12:25] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+
+
+
+[Mon Mar 12 18:12:49] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:12:49] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO products (
+                    product_id,
+                    name,
+                    description
+                ) VALUES (
+                    :product_id,
+                    :name,
+                    description
+                ) ON DUPLICATE KEY UPDATE
+                    name = :name,
+                    description = :description
+
+
+[Mon Mar 12 18:12:49] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => 
+      [:title] => 
+
+
+
+[Mon Mar 12 18:13:20] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:13:20] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO products (
+                    product_id,
+                    name,
+                    description
+                ) VALUES (
+                    :product_id,
+                    :name,
+                    :description
+                ) ON DUPLICATE KEY UPDATE
+                    name = :name,
+                    description = :description
+
+
+[Mon Mar 12 18:13:20] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:page_id] => null
+      [:url_name] => 
+      [:title] => 
+
+
+
+[Mon Mar 12 18:14:16] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'null' for column 'product_id' at row 1
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:14:16] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO products (
+                    product_id,
+                    name,
+                    description
+                ) VALUES (
+                    :product_id,
+                    :name,
+                    :description
+                ) ON DUPLICATE KEY UPDATE
+                    name = :name,
+                    description = :description
+
+
+[Mon Mar 12 18:14:16] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:product_id] => null
+      [:name] => 
+      [:description] => 
+
+
+
+[Mon Mar 12 18:25:16] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:25:16] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO products (
+                    product_id,
+                    name,
+                    description
+                ) VALUES (
+                    :product_id,
+                    :name,
+                    :description
+                ) ON DUPLICATE KEY UPDATE
+                    name = :name,
+                    description = :description
+
+
+[Mon Mar 12 18:25:16] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:product_id] => null
+      [:name] => 
+      [:description] => 
+
+
+
+[Mon Mar 12 18:25:32] SQL Error - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:86
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+-------------------------------
+Backtrace: File: /var/www/framework/App/Lib/Database/Mysql/DB.php (Line: 61)
+    Function: runQuery()
+    File: /var/www/framework/App/Lib/Products/Product.php (Line: 52)
+    Function: insertUpdate()
+    File: /var/www/framework/App/Controllers/ProductController.php (Line: 41)
+    Function: save()
+    File:  (Line: )
+    Function: save()
+    File: /var/www/framework/App/Routing/Router.php (Line: 137)
+    Function: call_user_func_array()
+    File: /var/www/framework/App/Routing/Router.php (Line: 114)
+    Function: processMatch()
+    File: /var/www/framework/public_html/index.php (Line: 17)
+    Function: processRoutes()
+-------------------------------
+
+
+
+[Mon Mar 12 18:25:32] SQL - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:87
+INSERT INTO products (
+                    product_id,
+                    name,
+                    description
+                ) VALUES (
+                    :product_id,
+                    :name,
+                    :description
+                ) ON DUPLICATE KEY UPDATE
+                    name = :name,
+                    description = :description
+
+
+[Mon Mar 12 18:25:32] with params: - File:/var/www/framework/App/Lib/Database/Mysql/DB.php - Line:88
+Array
+
+      [:product_id] => null
+      [:name] => 
+      [:description] => 
+
+

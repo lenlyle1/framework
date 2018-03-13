@@ -32,56 +32,56 @@ class UserApiController extends BaseController
 
     public static function saveUser($router, $params)
     {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
         return $userApi->save($_POST);
     }
 
     public static function saveUserProfile($router, $params)
     {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
         return $userApi->saveProfile($_POST);
     }
 
     public static function loadRoles($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->loadRoles();
     }
 
     public static function saveRole($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->saveRoles($_POST);
     }
 
     public static function loadPermissions($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->loadPermissions();
     }
 
     public static function savePermission($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->savePermission($_POST);
     }
 
     public static function saveRolePermissions($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->assignPermissions($_POST);
     }
 
     public static function assignRole($router, $params)
     {
-        $rolesApi = new RolesAPI($_GET['auth_id'], $_GET['auth_public']);
+        $rolesApi = new RolesAPI();
 
         return $rolesApi->assignToUser($_POST);
     }
@@ -93,14 +93,14 @@ class UserApiController extends BaseController
 
     public static function loadUserPermissions($router, $params)
     {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
         return $userApi->loadPermissions();
     }
 
     public static function importUsers($router, $params)
     {
-        $userApi = new UserAPI($_GET['auth_id'], $_GET['auth_public']);
+        $userApi = new UserAPI();
 
         return $userApi->importUsers($_POST);
     }

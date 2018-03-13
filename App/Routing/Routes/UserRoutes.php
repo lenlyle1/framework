@@ -7,6 +7,6 @@ use \Routing\Router;
 /** ========================================================
  *  Non-authed routers
  * =======================================================*/
-$router->addGroup('/user', function($router){
-    
+$router->addGroup('/admin/users', function($router){
+    $router->add('GET', '/edit/[*:userId]?', 'AdminController:editUser', 'admin-edit-user');
 });

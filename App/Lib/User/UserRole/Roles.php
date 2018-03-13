@@ -2,7 +2,7 @@
 
 namespace Lib\User\UserRole;
 
-use \Models\Role;
+use \Models\Roles;
 use \Models\UserRole;
 use \Lib\Database\DbGetter;
 use \Lib\Debug\Debugger;
